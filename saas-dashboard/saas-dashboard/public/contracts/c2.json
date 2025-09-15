@@ -1,0 +1,34 @@
+{
+  "id": "c2",
+  "name": "Network Services Agreement",
+  "parties": "TelNet & ABC Corp",
+  "start": "2022-06-01",
+  "expiry": "2025-10-10",
+  "status": "Renewal Due",
+  "risk": "High",
+  "clauses": [
+    {
+      "title": "SLA",
+      "summary": "99.9% uptime guaranteed, penalties apply.",
+      "confidence": 0.9
+    },
+    {
+      "title": "Termination for Convenience",
+      "summary": "Both parties may terminate with 60 days notice.",
+      "confidence": 0.75
+    }
+  ],
+  "insights": [
+    {
+      "risk": "High",
+      "message": "SLA penalties may not cover customer losses."
+    }
+  ],
+  "evidence": [
+    {
+      "source": "SLA - Section 3",
+      "snippet": "Uptime measured monthly, exclusions apply.",
+      "relevance": 0.88
+    }
+  ]
+}
